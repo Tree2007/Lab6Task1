@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class TempConversion {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
@@ -19,6 +19,7 @@ public class Main {
             }
             else {
                 System.out.println("You have given an invalid temperature. Please try again");
+                scan.nextLine();
             }
         } while (!valid);
 
